@@ -6,6 +6,8 @@ Coldfusion Mailchimp API v3
   application.cfc_mailing = createObject("component","mailchimp").init();
 </cfscript>`
 
+`<cfinvoke component="#application.cfc_mailing#" method="campaignList" returnvariable="campaignList"></cfinvoke>`
+
 ##Notes
 Not completely tested. Some methods don't exist yet in API v3
 
